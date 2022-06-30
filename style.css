@@ -12,28 +12,42 @@ body {
 }
 
 main {
-    /* width: 50%; */
-    justify-content: center;
+    width: 50%; 
+     justify-content: center; 
     display: flex;
     align-items: center;
-    /* margin: auto;*/
+    margin: auto;
     padding: 5em;
+    height: 100vh;
+    box-sizing: border-box;
 
 }
 
 .first-section {
     background-color: hsl(31, 77%, 52%);
+    padding:20px;
+    height:50%;
+    box-sizing: border-box;
 }
 
 .second-section {
-    background-color: hsl(184, 100%, 22%)
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    height: 50%;
+    box-sizing: border-box;
 }
 
 .third-section {
-    background-color: hsl(179, 100%, 13%)
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    height: 50%;
+    box-sizing: border-box;
 }
 
 h2 {
     color: hsl(0, 0%, 95%);
 
 }
+/* button{ */
+    /* padding:10px; */
+/* } */
